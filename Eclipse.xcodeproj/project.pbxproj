@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33A0C622C1D45D5003ED404 /* EclipseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A0C612C1D45D5003ED404 /* EclipseApp.swift */; };
+		C33A0C642C1D45DB003ED404 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A0C632C1D45DB003ED404 /* ContentView.swift */; };
+		C33A0C662C1D45E0003ED404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33A0C652C1D45E0003ED404 /* Assets.xcassets */; };
+		C33A0C6B2C1D4630003ED404 /* ocean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C33A0C672C1D4630003ED404 /* ocean.mp3 */; };
+		C33A0C6C2C1D4630003ED404 /* brown_noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C33A0C682C1D4630003ED404 /* brown_noise.mp3 */; };
+		C33A0C6D2C1D4630003ED404 /* white_noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C33A0C692C1D4630003ED404 /* white_noise.mp3 */; };
+		C33A0C6E2C1D4630003ED404 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C33A0C6A2C1D4630003ED404 /* rain.mp3 */; };
+		C33A0C702C1D47CA003ED404 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33A0C6F2C1D47CA003ED404 /* Preview Assets.xcassets */; };
+		C33A0C722C1DE6B4003ED404 /* meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C33A0C712C1DE6B4003ED404 /* meditation.mp3 */; };
+		C3EFB7BC2BE559A900822E51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3EFB7BB2BE559A900822E51 /* Preview Assets.xcassets */; };
+		C3EFB7C62BE559A900822E51 /* EclipseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EFB7C52BE559A900822E51 /* EclipseTests.swift */; };
+		C3EFB7D02BE559A900822E51 /* EclipseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EFB7CF2BE559A900822E51 /* EclipseUITests.swift */; };
+		C3EFB7D22BE559A900822E51 /* EclipseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EFB7D12BE559A900822E51 /* EclipseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3EFB7C22BE559A900822E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3EFB7A92BE559A700822E51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3EFB7B02BE559A700822E51;
+			remoteInfo = Eclipse;
+		};
+		C3EFB7CC2BE559A900822E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3EFB7A92BE559A700822E51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3EFB7B02BE559A700822E51;
+			remoteInfo = Eclipse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C33A0C612C1D45D5003ED404 /* EclipseApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EclipseApp.swift; path = "../../../Library/Mobile Documents/.Trash/EclipseApp.swift"; sourceTree = "<group>"; };
+		C33A0C632C1D45DB003ED404 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../Library/Mobile Documents/.Trash/ContentView.swift"; sourceTree = "<group>"; };
+		C33A0C652C1D45E0003ED404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Library/Mobile Documents/.Trash/Assets.xcassets"; sourceTree = "<group>"; };
+		C33A0C672C1D4630003ED404 /* ocean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ocean.mp3; sourceTree = "<group>"; };
+		C33A0C682C1D4630003ED404 /* brown_noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brown_noise.mp3; sourceTree = "<group>"; };
+		C33A0C692C1D4630003ED404 /* white_noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = white_noise.mp3; sourceTree = "<group>"; };
+		C33A0C6A2C1D4630003ED404 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
+		C33A0C6F2C1D47CA003ED404 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C33A0C712C1DE6B4003ED404 /* meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditation.mp3; sourceTree = "<group>"; };
+		C3EFB7B12BE559A700822E51 /* Eclipse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eclipse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EFB7BB2BE559A900822E51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3EFB7C12BE559A900822E51 /* EclipseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EclipseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EFB7C52BE559A900822E51 /* EclipseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EclipseTests.swift; sourceTree = "<group>"; };
+		C3EFB7CB2BE559A900822E51 /* EclipseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EclipseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EFB7CF2BE559A900822E51 /* EclipseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EclipseUITests.swift; sourceTree = "<group>"; };
+		C3EFB7D12BE559A900822E51 /* EclipseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EclipseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3EFB7AE2BE559A700822E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EFB7BE2BE559A900822E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EFB7C82BE559A900822E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3EFB7A82BE559A700822E51 = {
+			isa = PBXGroup;
+			children = (
+				C3EFB7B32BE559A700822E51 /* Eclipse */,
+				C3EFB7C42BE559A900822E51 /* EclipseTests */,
+				C3EFB7CE2BE559A900822E51 /* EclipseUITests */,
+				C3EFB7B22BE559A700822E51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3EFB7B22BE559A700822E51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3EFB7B12BE559A700822E51 /* Eclipse.app */,
+				C3EFB7C12BE559A900822E51 /* EclipseTests.xctest */,
+				C3EFB7CB2BE559A900822E51 /* EclipseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3EFB7B32BE559A700822E51 /* Eclipse */ = {
+			isa = PBXGroup;
+			children = (
+				C33A0C712C1DE6B4003ED404 /* meditation.mp3 */,
+				C33A0C682C1D4630003ED404 /* brown_noise.mp3 */,
+				C33A0C672C1D4630003ED404 /* ocean.mp3 */,
+				C33A0C6A2C1D4630003ED404 /* rain.mp3 */,
+				C33A0C692C1D4630003ED404 /* white_noise.mp3 */,
+				C33A0C612C1D45D5003ED404 /* EclipseApp.swift */,
+				C33A0C632C1D45DB003ED404 /* ContentView.swift */,
+				C33A0C652C1D45E0003ED404 /* Assets.xcassets */,
+				C3EFB7BA2BE559A900822E51 /* Preview Content */,
+			);
+			path = Eclipse;
+			sourceTree = "<group>";
+		};
+		C3EFB7BA2BE559A900822E51 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C33A0C6F2C1D47CA003ED404 /* Preview Assets.xcassets */,
+				C3EFB7BB2BE559A900822E51 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3EFB7C42BE559A900822E51 /* EclipseTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3EFB7C52BE559A900822E51 /* EclipseTests.swift */,
+			);
+			path = EclipseTests;
+			sourceTree = "<group>";
+		};
+		C3EFB7CE2BE559A900822E51 /* EclipseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3EFB7CF2BE559A900822E51 /* EclipseUITests.swift */,
+				C3EFB7D12BE559A900822E51 /* EclipseUITestsLaunchTests.swift */,
+			);
+			path = EclipseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3EFB7B02BE559A700822E51 /* Eclipse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3EFB7D52BE559A900822E51 /* Build configuration list for PBXNativeTarget "Eclipse" */;
+			buildPhases = (
+				C3EFB7AD2BE559A700822E51 /* Sources */,
+				C3EFB7AE2BE559A700822E51 /* Frameworks */,
+				C3EFB7AF2BE559A700822E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eclipse;
+			productName = Eclipse;
+			productReference = C3EFB7B12BE559A700822E51 /* Eclipse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3EFB7C02BE559A900822E51 /* EclipseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3EFB7D82BE559A900822E51 /* Build configuration list for PBXNativeTarget "EclipseTests" */;
+			buildPhases = (
+				C3EFB7BD2BE559A900822E51 /* Sources */,
+				C3EFB7BE2BE559A900822E51 /* Frameworks */,
+				C3EFB7BF2BE559A900822E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3EFB7C32BE559A900822E51 /* PBXTargetDependency */,
+			);
+			name = EclipseTests;
+			productName = EclipseTests;
+			productReference = C3EFB7C12BE559A900822E51 /* EclipseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3EFB7CA2BE559A900822E51 /* EclipseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3EFB7DB2BE559A900822E51 /* Build configuration list for PBXNativeTarget "EclipseUITests" */;
+			buildPhases = (
+				C3EFB7C72BE559A900822E51 /* Sources */,
+				C3EFB7C82BE559A900822E51 /* Frameworks */,
+				C3EFB7C92BE559A900822E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3EFB7CD2BE559A900822E51 /* PBXTargetDependency */,
+			);
+			name = EclipseUITests;
+			productName = EclipseUITests;
+			productReference = C3EFB7CB2BE559A900822E51 /* EclipseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3EFB7A92BE559A700822E51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C3EFB7B02BE559A700822E51 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C3EFB7C02BE559A900822E51 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C3EFB7B02BE559A700822E51;
+					};
+					C3EFB7CA2BE559A900822E51 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C3EFB7B02BE559A700822E51;
+					};
+				};
+			};
+			buildConfigurationList = C3EFB7AC2BE559A700822E51 /* Build configuration list for PBXProject "Eclipse" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3EFB7A82BE559A700822E51;
+			productRefGroup = C3EFB7B22BE559A700822E51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3EFB7B02BE559A700822E51 /* Eclipse */,
+				C3EFB7C02BE559A900822E51 /* EclipseTests */,
+				C3EFB7CA2BE559A900822E51 /* EclipseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3EFB7AF2BE559A700822E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33A0C6D2C1D4630003ED404 /* white_noise.mp3 in Resources */,
+				C3EFB7BC2BE559A900822E51 /* Preview Assets.xcassets in Resources */,
+				C33A0C722C1DE6B4003ED404 /* meditation.mp3 in Resources */,
+				C33A0C6E2C1D4630003ED404 /* rain.mp3 in Resources */,
+				C33A0C702C1D47CA003ED404 /* Preview Assets.xcassets in Resources */,
+				C33A0C6B2C1D4630003ED404 /* ocean.mp3 in Resources */,
+				C33A0C6C2C1D4630003ED404 /* brown_noise.mp3 in Resources */,
+				C33A0C662C1D45E0003ED404 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EFB7BF2BE559A900822E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EFB7C92BE559A900822E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3EFB7AD2BE559A700822E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33A0C622C1D45D5003ED404 /* EclipseApp.swift in Sources */,
+				C33A0C642C1D45DB003ED404 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EFB7BD2BE559A900822E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EFB7C62BE559A900822E51 /* EclipseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EFB7C72BE559A900822E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EFB7D22BE559A900822E51 /* EclipseUITestsLaunchTests.swift in Sources */,
+				C3EFB7D02BE559A900822E51 /* EclipseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3EFB7C32BE559A900822E51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3EFB7B02BE559A700822E51 /* Eclipse */;
+			targetProxy = C3EFB7C22BE559A900822E51 /* PBXContainerItemProxy */;
+		};
+		C3EFB7CD2BE559A900822E51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3EFB7B02BE559A700822E51 /* Eclipse */;
+			targetProxy = C3EFB7CC2BE559A900822E51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C3EFB7D32BE559A900822E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3EFB7D42BE559A900822E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3EFB7D62BE559A900822E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Eclipse/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bunnyie.Eclipse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3EFB7D72BE559A900822E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Eclipse/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bunnyie.Eclipse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3EFB7D92BE559A900822E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bunnyie.EclipseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eclipse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Eclipse";
+			};
+			name = Debug;
+		};
+		C3EFB7DA2BE559A900822E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bunnyie.EclipseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eclipse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Eclipse";
+			};
+			name = Release;
+		};
+		C3EFB7DC2BE559A900822E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bunnyie.EclipseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eclipse;
+			};
+			name = Debug;
+		};
+		C3EFB7DD2BE559A900822E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bunnyie.EclipseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eclipse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3EFB7AC2BE559A700822E51 /* Build configuration list for PBXProject "Eclipse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EFB7D32BE559A900822E51 /* Debug */,
+				C3EFB7D42BE559A900822E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3EFB7D52BE559A900822E51 /* Build configuration list for PBXNativeTarget "Eclipse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EFB7D62BE559A900822E51 /* Debug */,
+				C3EFB7D72BE559A900822E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3EFB7D82BE559A900822E51 /* Build configuration list for PBXNativeTarget "EclipseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EFB7D92BE559A900822E51 /* Debug */,
+				C3EFB7DA2BE559A900822E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3EFB7DB2BE559A900822E51 /* Build configuration list for PBXNativeTarget "EclipseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EFB7DC2BE559A900822E51 /* Debug */,
+				C3EFB7DD2BE559A900822E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3EFB7A92BE559A700822E51 /* Project object */;
+}
